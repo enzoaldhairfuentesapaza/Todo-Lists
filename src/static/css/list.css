@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    padding: 20px;
+
+    background-color: rgba(139, 141, 7, 0.796);
+
+}
+
+.list-container {
+    margin: 20px auto;
+    max-width: 85%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.sublist {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.task-form {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"], button {
+    padding: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #388f3d;
+}
+
+ol {
+    padding-left: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.button-eliminarLista {
+    background-color: #571510;
+    margin-left: 5px;
+}
+
+.button-eliminarLista:hover {
+    background-color: #b3261c;
+}
+
+.button-marcarTodo {
+    background-color: #083850;
+}
+
+.button-marcarTodo:hover {
+    background-color: #1c2bb3;
+}
+
+.button-eliminarTask {
+    padding: 2px;
+    margin-left: 4px;
+    background-color: #ff0000;
+}
+
+.button-eliminarTask:hover {
+    background-color: #770000;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    margin-right: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.722);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #2196F3;
+    border: 2px solid #2196F3;
+    color: #fff;
+}
